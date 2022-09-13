@@ -1,0 +1,135 @@
+* {
+    font-family: sans-serif;
+}
+
+h2 {
+    margin-left: 60px;
+}
+
+#FenInDiv {
+    position: relative;
+    left: 60px;
+}
+
+#fenid {
+    width: 480px;
+    margin-left: 60px;
+}
+
+#Board {
+    position: relative;
+    top: 14px;
+    left: 60px;
+    width: 484px;
+    height: 484px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#EngineOutput {
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+
+button {
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+@media(max-width: 710px) {
+    #setFen {
+        margin-top: 3px;
+        margin-left: 60px;
+    }
+}
+
+.Square {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+
+.Dark {
+    background-color: #876445;
+}
+
+.Light {
+    background-color: #EEE3CB;
+}
+
+.SqSelected {
+    background-color: #CA955C;
+}
+
+.rank1 {
+    top: 420px;
+}
+
+.rank2 {
+    top: 360px;
+}
+
+.rank3 {
+    top: 300px;
+}
+
+.rank4 {
+    top: 240px;
+}
+
+.rank5 {
+    top: 180px;
+}
+
+.rank6 {
+    top: 120px;
+}
+
+.rank7 {
+    top: 60px;
+}
+
+.rank8 {
+    top: 0px;
+}
+
+.file1 {
+    left: 0px;
+}
+
+.file2 {
+    left: 60px;
+}
+
+.file3 {
+    left: 120px;
+}
+
+.file4 {
+    left: 180px;
+}
+
+.file5 {
+    left: 240px;
+}
+
+.file6 {
+    left: 300px;
+}
+
+.file7 {
+    left: 360px;
+}
+
+.file8 {
+    left: 420px;
+}
+
+.Piece {
+    position: absolute;
+}
+
+#GameStatus {
+    font-size: large;
+}
